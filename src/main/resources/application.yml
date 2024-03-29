@@ -1,0 +1,10 @@
+config_variables_file_path: /spring-github-login-starter-master/.env
+
+spring:
+  security:
+    oauth2:
+      client:
+        registration:
+          github:
+            client-id: ${CLIENT_ID}
+            client-secret: ${CLIENT_SECRET}
